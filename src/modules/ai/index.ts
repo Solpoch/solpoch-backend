@@ -16,7 +16,6 @@ export const aiControllers = new Elysia({ prefix: '/ai' })
   .post(
     '/analyze-dapp-payload',
     async ({ body: { payload } }) => {
-      // Placeholder for analyzing dApp payloads
       return await analyzeDappPayload(payload);
     },
     {
